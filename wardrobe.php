@@ -23,7 +23,7 @@
     <!-- header start -->
     <div id="profile_header" style="background-color:white">
         <div class="iconprofileheader">
-            <i class="fa-solid fa-arrow-left-long fa-2x"></i>
+            <i class="fa fa-angle-left fa-2x"></i>
         </div>
         <div id="profile_heading">
             <div id="profhead">List on Items</div>
@@ -58,86 +58,66 @@
     <!-- first accordation -->
     <div class="picdet" style="background-color:white">
         <div class="picdet1">
-            <div class="picdet2">Category</div>
+            <div class="picdet4">Category</div>
         </div>
         <div class="picdet1">
-            <div class="picdet3">Women</div>
-        </div>
-        <div class="nexticon">
-            <i class="fa-solid fa-angle-right"></i>
+            <div class="picdet3" style="margin-left: 82px;">Women <i class="fa-solid fa-angle-right"></i></div>
         </div>
     </div>
 
     <!-- second accordation -->
     <div class="picdet" style="background-color:white">
         <div class="picdet1">
-            <div class="picdet2">Product Type</div>
+            <div class="picdet4">Product Type </div>
         </div>
         <div class="picdet1">
-            <div class="picdet3">Dress</div>
-        </div>
-        <div class="nexticon">
-            <i class="fa-solid fa-angle-right"></i>
+            <div class="picdet3" style="margin-left: 100px;">Dress <i class="fa-solid fa-angle-right"></i></div>
         </div>
     </div>
     <!-- third accordation -->
     <div class="picdet" style="background-color:white">
         <div class="picdet1">
-            <div class="picdet2">Sub Category</div>
+            <div class="picdet4">Sub Category</div>
         </div>
         <div class="picdet1">
-            <div class="picdet3">Maxy,Bodycon</div>
+            <div class="picdet3" style="margin-left: 24px;">Maxy,Bodycon <i class="fa-solid fa-angle-right"></i></div>
         </div>
-        <div class="nexticon">
-            <i class="fa-solid fa-angle-right"></i>
-        </div>
+
     </div>
     <!-- fourth accordation -->
     <div class="picdet" style="background-color:white">
         <div class="picdet1">
-            <div class="picdet2">Size</div>
+            <div class="picdet4">Size</div>
         </div>
         <div class="picdet1">
-            <div class="picdet3">UK 8</div>
-        </div>
-        <div class="nexticon">
-            <i class="fa-solid fa-angle-right"></i>
+            <div class="picdet3" style="margin-left: 106px;">UK 8 <i class="fa-solid fa-angle-right"></i></div>
         </div>
     </div>
     <!-- fivth accordation -->
     <div class="picdet" style="background-color:white">
         <div class="picdet1">
-            <div class="picdet2">Color</div>
+            <div class="picdet4">Color</div>
         </div>
         <div class="picdet1">
-            <div class="picdet3">Multi Color</div>
-        </div>
-        <div class="nexticon">
-            <i class="fa-solid fa-angle-right"></i>
+            <div class="picdet3" style="margin-left: 51px;">Multi Color <i class="fa-solid fa-angle-right"></i></div>
         </div>
     </div>
     <!-- sixth accordation -->
     <div class="picdet" style="background-color:white">
         <div class="picdet1">
-            <div class="picdet2">Brand</div>
+            <div class="picdet4">Brand</div>
         </div>
         <div class="picdet1">
-            <div class="picdet3">Loewe</div>
-        </div>
-        <div class="nexticon">
-            <i class="fa-solid fa-angle-right"></i>
+            <div class="picdet3" style="margin-left: 90px;">Loewe <i class="fa-solid fa-angle-right"></i></div>
         </div>
     </div>
     <!-- seveth accordation -->
     <div class="picdet">
         <div class="picdet1">
-            <div class="picdet2">Retail Price</div>
+            <div class="picdet4">Retail Price</div>
         </div>
         <div class="picdet1">
-            <div class="picdet3">$890</div>
-        </div>
-        <div class="nexticon">
-            <i class="fa-solid fa-angle-right"></i>
+            <div class="picdet3" style="margin-left: 102px;">$890 <i class="fa-solid fa-angle-right"></i></div>
         </div>
     </div>
 
@@ -155,17 +135,16 @@
     <!-- title box start -->
     <div id="titlebox">
         <div id="title2">Title</div>
-        <div>Loewe blur print dress</div>
+        <div id="tititem" style="margin: 0;">
+        Please provide a title for your Item
+        </div>
     </div>
     <div id="titlebox1">
-        <div>A Stunning blur print dress from loewe. Paired perfectly with some heels!</div>
+        <div id="tititem" style="margin-left: 0; margin: top 10px;">A Stunning blur print dress from loewe. Paired perfectly with some heels!</div>
     </div>
     <!-- title box end -->
 
 
-    <!-- footer start -->
-    <?php include 'footer.php' ?>
-    <!-- footer end -->
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>

@@ -1647,11 +1647,14 @@ input,
 }
 
 .picdet {
-    width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 90%;
     height: 40px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
+    border-bottom: 1px solid #ebebeb;
 }
 
 .picdet1 {
@@ -1679,11 +1682,20 @@ input,
     color: gray;
 }
 
+.picdet4 {
+    font-weight: 400;
+    font-size: larger;
+    font-weight: 15px;
+    color: rgb(24, 24, 24);
+}
+
 #descitem {
     width: 95%;
-    margin: 18px auto;
-    font-size: 25px;
-    font-weight: bolder;
+    margin-top: 25px;
+    margin-left: 18px;
+    margin-right: 18px;
+    font-weight: bold;
+    font-size: 19px;
 }
 
 #profheadrev {
@@ -1694,8 +1706,11 @@ input,
 
 #tititem {
     width: 95%;
-    margin: 8px auto;
-    font-size: 20px;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 8px;
+    margin-bottom: 18px;
+    font-size: 16px;
     font-weight: lighter;
     color: grey;
 }
@@ -1704,16 +1719,18 @@ input,
     width: 95%;
     padding-left: 15px;
     margin: auto;
-    height: 60px;
-    border: 2px solid rgb(82, 70, 70);
+    height: 80px;
+    border: 1px solid #d1d1d1;
+    border-radius: 10px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
 }
 
 #title2 {
+    margin-top: 6px;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 500;
     color: black;
 }
 
@@ -1730,8 +1747,9 @@ input,
     margin-top: 20px;
     margin-bottom: 10%;
     height: 90px;
-    border: 2px solid rgb(209, 208, 208);
-    overflow: auto;
+    border: 1px solid #d1d1d1;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 #rent1 {
