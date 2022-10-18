@@ -509,11 +509,11 @@ body {font-family: Verdana, sans-serif;}
 						</span>
                         <span> $65.79</span>
                         <br>
-                        <span class="mtext-102 cl2">
+                        <span class="size203 cl2">
 							Minimum
 						</span>
                         <span>/3Days</span>
-                        <span class="mtext-102 cl2">
+                        <span class="size203 cl2">
 							Maximum
 						</span>
                         <span>/7Days</span>
@@ -523,15 +523,15 @@ body {font-family: Verdana, sans-serif;}
                         </p>
 
                         <div class="bg6 portion3" >
-                            <div>
+                            <div style="margin-left: 10px;">
                                 <h6>Basis Mietpresis</h6>
                                 <p>$ 16.50</p>
                                 <p>Nulla eget sem vitae eros</p>
                             </div>
                             <div>
-                            <div class="vl"></div>
+                            <div class="vl"  style="margin-left: 10px;"></div>
                             </div>
-                            <div>
+                            <div  style="margin-left: -10px;">
                             <h6>Basis Mietpresis</h6>
                                 <p>$ 16.50</p>
                                 <p>Nulla eget sem vitae eros</p>
@@ -542,8 +542,7 @@ body {font-family: Verdana, sans-serif;}
                         <!--  -->
                         <div class="p-t-33">
                             <div class="flex-w  p-b-10">
-                                <div class="size-203 flex-c-m respon6">
-                                    Size:
+                                <div class="size-203 flex-c-m respon6">Size:
                                 </div>
                                 <span> Larger</span>
                                 <!-- <div class="size-204 respon6-next"> -->
@@ -688,7 +687,7 @@ body {font-family: Verdana, sans-serif;}
                                     et elementum sed, sodales vitae eros. Ut ex quam, porta consequat interdum in, faucibus eu velit. Quisque rhoncus ex ac libero varius molestie. Aenean tempor sit amet orci nec iaculis. Cras sit amet nulla libero. Curabitur
                                     dignissim, nunc nec laoreet consequat, purus nunc porta lacus, vel efficitur tellus augue in ipsum. Cras in arcu sed metus rutrum iaculis. Nulla non tempor erat. Duis in egestas nunc.
                                 </p> -->
-                                <div class="flex-w flex-t p-b-68">
+                                <div class="flex-w flex-t p-b-20">
                                     <div class="wrap-pic-s size-109 bor0 of-hidden m-r-18 m-t-6">
                                     <a href="images/avatar-01.jpg" data-lightbox="models" data-title="user">
                                     <img src="images/avatar-01.jpg" alt="AVATAR">
@@ -780,9 +779,9 @@ body {font-family: Verdana, sans-serif;}
                         <div class="tab-pane fade" id="reviews" role="tabpanel">
                             <div class="row">
                                 <div class="col-sm-10 col-md-8 col-lg-6 m-lr-auto">
-                                    <div class="p-b-30 m-lr-15-sm">
+                                    <div class=" m-lr-15-sm">
                                         <!-- Review -->
-                                        <div class="flex-w flex-t p-b-68">
+                                        <div class="flex-w flex-t p-b-20">
                                             <div class="wrap-pic-s size-109 bor0 of-hidden m-r-18 m-t-6">
                                             <a href="images/avatar-01.jpg" data-lightbox="models" data-title="User">
                                                  <img src="images/avatar-01.jpg" alt="AVATAR">
@@ -1146,153 +1145,7 @@ body {font-family: Verdana, sans-serif;}
     </section>
 
 
-    <!-- Footer -->
-    <footer class="bg3 p-t-75 p-b-32">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-lg-3 p-b-50">
-                    <h4 class="stext-301 cl0 p-b-30">
-                        Categories
-                    </h4>
 
-                    <ul>
-                        <li class="p-b-10">
-                            <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								Women
-							</a>
-                        </li>
-
-                        <li class="p-b-10">
-                            <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								Men
-							</a>
-                        </li>
-
-                        <li class="p-b-10">
-                            <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								Shoes
-							</a>
-                        </li>
-
-                        <li class="p-b-10">
-                            <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								Watches
-							</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-sm-6 col-lg-3 p-b-50">
-                    <h4 class="stext-301 cl0 p-b-30">
-                        Help
-                    </h4>
-
-                    <ul>
-                        <li class="p-b-10">
-                            <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								Track Order
-							</a>
-                        </li>
-
-                        <li class="p-b-10">
-                            <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								Returns 
-							</a>
-                        </li>
-
-                        <li class="p-b-10">
-                            <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								Shipping
-							</a>
-                        </li>
-
-                        <li class="p-b-10">
-                            <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								FAQs
-							</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-sm-6 col-lg-3 p-b-50">
-                    <h4 class="stext-301 cl0 p-b-30">
-                        GET IN TOUCH
-                    </h4>
-
-                    <p class="stext-107 cl7 size-201">
-                        Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+1) 96 716 6879
-                    </p>
-
-                    <div class="p-t-27">
-                        <a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-
-                        <a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
-                            <i class="fa fa-instagram"></i>
-                        </a>
-
-                        <a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
-                            <i class="fa fa-pinterest-p"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-3 p-b-50">
-                    <h4 class="stext-301 cl0 p-b-30">
-                        Newsletter
-                    </h4>
-
-                    <form>
-                        <div class="wrap-input1 w-full p-b-4">
-                            <input class="input1 bg-none plh1 stext-107 cl7" type="text" name="email" placeholder="email@example.com">
-                            <div class="focus-input1 trans-04"></div>
-                        </div>
-
-                        <div class="p-t-18">
-                            <button class="flex-c-m stext-101 cl0 size-103 bg1 bor1 hov-btn2 p-lr-15 trans-04">
-								Subscribe
-							</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-
-            <div class="p-t-40">
-                <div class="flex-c-m flex-w p-b-18">
-                    <a href="#" class="m-all-1">
-                        <img src="images/icons/icon-pay-01.png" alt="ICON-PAY">
-                    </a>
-
-                    <a href="#" class="m-all-1">
-                        <img src="images/icons/icon-pay-02.png" alt="ICON-PAY">
-                    </a>
-
-                    <a href="#" class="m-all-1">
-                        <img src="images/icons/icon-pay-03.png" alt="ICON-PAY">
-                    </a>
-
-                    <a href="#" class="m-all-1">
-                        <img src="images/icons/icon-pay-04.png" alt="ICON-PAY">
-                    </a>
-
-                    <a href="#" class="m-all-1">
-                        <img src="images/icons/icon-pay-05.png" alt="ICON-PAY">
-                    </a>
-                </div>
-
-                <p class="stext-107 cl6 txt-center">
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    Copyright &copy;
-                    <script>
-                        document.write(new Date().getFullYear());
-                    </script> All rights reserved | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> &amp; distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-
-                </p>
-            </div>
-        </div>
-    </footer>
 
 
     <!-- Back to top -->
@@ -1496,7 +1349,7 @@ $(function() {
     </div>
   </div>
 </div>
-    <?php include 'footer.php' ?>
+
     <!-- lightbox js -->
     <script src="lightbox-plus-jquery.js"></script>
 

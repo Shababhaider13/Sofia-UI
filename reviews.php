@@ -14,6 +14,17 @@
     <link rel="stylesheet" href="style.css">
         <!-- lightbox css -->
         <link rel="stylesheet" href="lightbox.css">
+
+<style>
+.handle{
+display: -webkit-box;
+-webkit-box-orient: vertical;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: normal;
+-webkit-line-clamp: 1;
+}
+</style>
 </head>
 
 <body>
@@ -45,7 +56,7 @@
                     <div class="card-body">
                     <a href="#" style="text-decoration: none; color:#343a40"><h6 class="card-title">Valerie92</h6></a>
                         <div class="card-text"><i class="fa-solid fa-star favcol"></i><i class="fa-solid fa-star favcol"></i><i class="fa-solid fa-star favcol"></i><i class="fa-solid fa-star favcol"></i><i class="fa-solid fa-star favcol"></i></div>
-                        <div class="card-text">Very nice contact, everything worked easy and fine.</div>
+                        <div class="card-text handle">Very nice contact, everything worked easy and fine.</div>
                         <div class="card-text datlow">Dated: 01.05.2022</div>
                         <div class="card-text revimg">
                         <a href="damage1.png" data-lightbox="models" data-title="Damage">
@@ -73,9 +84,9 @@
                     <div class="card-body">
                     <a href="#" style="text-decoration: none; color:#343a40"><h6 class="card-title">Yvonne_2</h6></a>
                         <div class="card-text"><i class="fa-solid fa-star favcol"></i><i class="fa-solid fa-star favcol"></i><i class="fa-solid fa-star favcol"></i><i class="fa-solid fa-star favcol"></i><i class="fa-solid fa-star favcol"></i></div>
-                        <div class="card-text">Everything was great, happy to rent from this user.........</div>
+                        <div class="card-text handle">Everything was great, happy to rent from this user</div>
                         <div class="card-text datlow">Dated: 13.04.2022</div>
-                        <div class="card-text revimg">
+                        <!-- <div class="card-text revimg">
                         <a href="damage1.png" data-lightbox="models" data-title="Damage">
                         <img src="damage1.png" width="100%" height="45px">
                         </a>
@@ -85,7 +96,7 @@
                         <a href="damage3.png" data-lightbox="models" data-title="Damage">
                         <img src="damage3.png" width="100%" height="45px">
                         </a>
-                        </div>
+                        </div> -->
 
 
                     </div>
@@ -100,7 +111,7 @@
                     <div class="card-body">
                     <a href="#" style="text-decoration: none; color:#343a40"><h6 class="card-title">Yvonne_2</h6></a>
                         <div class="card-text"><i class="fa-solid fa-star favcol"></i><i class="fa-solid fa-star favcol"></i><i class="fa-solid fa-star favcol"></i><i class="fa-solid fa-star favcol"></i><i class="fa-solid fa-star favcol"></i></div>
-                        <div class="card-text">Everything was great, happy to rent from this user.........</div>
+                        <div class="card-text handle">Everything was great, happy to rent from this user</div>
                         <div class="card-text datlow">Dated: 13.04.2022</div>
                         <div class="card-text revimg">
                         <a href="damage1.png" data-lightbox="models" data-title="Damage">
@@ -127,7 +138,7 @@
                     <div class="card-body">
                         <a href="#" style="text-decoration: none; color:#343a40"><h6 class="card-title">Valerie92</h6></a>
                         <div class="card-text"><i class="fa-solid fa-star favcol"></i><i class="fa-solid fa-star favcol"></i><i class="fa-solid fa-star favcol"></i><i class="fa-solid fa-star favcol"></i><i class="fa-solid fa-star favcol"></i></div>
-                        <div class="card-text">Very nice contact, everything worked easy and fine.</div>
+                        <div class="card-text handle">Very nice contact, everything worked easy and fine.</div>
                         <div class="card-text datlow">Dated: 01.05.2022</div>
                         <div class="card-text revimg">
                         <a href="damage1.png" data-lightbox="models" data-title="Damage">

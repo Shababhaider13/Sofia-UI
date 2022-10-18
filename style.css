@@ -1759,8 +1759,8 @@ input,
 
 .vl {
     border-left: 6px solid #fdfdfd;
-    ;
-    height: 100px;
+    margin-top: 12px;
+    height: 75px;
 }
 
 .portion3 {

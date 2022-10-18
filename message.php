@@ -493,11 +493,6 @@
 <div style="width: 100%;height:80vh;display:flex;justify-content:center">
     <div id="chatbox">
         <div id="friendslist">
-            <div id="topmenu">
-                <span class="friends"></span>
-                <span class="chats"></span>
-                <span class="history"></span>
-            </div>
 
             <div id="friends">
             <div id="search">
