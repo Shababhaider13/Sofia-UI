@@ -30,7 +30,7 @@
 .card-body {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
-    height: 120px;
+    height: 100%;
    
 }
 .button1 {
@@ -187,16 +187,18 @@
     </div> -->
 
     <div id="fav1">
-        <div  class="img-wish">
+
+        <div  class="img-wish" style="margin: 6px;">
         
 
-        <a href="product-detail.php"><div class="card" style="width: 100%;">
+        <a href="product-detail.php"><div class="card" style="width: 100%; border:none;">
                                 <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
-                                <div class="card-body">
+                                <div class="card-body" style="padding: 8px;">
                                     
                                   <span class="fa fa-heart" style="float: right;"></span>
                                  <p class="card-text">Brand New Watch</p>
                                  <small class="text-muted" >Louis Vuitton</small>
+                                 <p class="card-text" ><small class="text-muted">Size: <span> Large</span> </small></p>
 
                                  
                                 <center>
@@ -219,15 +221,15 @@
 
 </div>
 
-<div class="img-wish">
+<div class="img-wish" style="margin: 6px;">
 
-<a href="product-detail.php"><div class="card" style="width: 100%;">
+<a href="product-detail.php"><div class="card" style="width: 100%; border:none;">
                             <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
-                            <div class="card-body">
+                            <div class="card-body" style="padding: 8px;">
                               <span class="fa fa-heart" style="float: right;"></span>
                              <p class="card-text">Brand New Watch</p>
                              <small class="text-muted">Louis Vuitton</small>
-
+                             <p class="card-text" ><small class="text-muted">Size: <span> Large</span> </small></p>
                              
                             <center>
                              <a href="#" class="btn btn-primary">€ 39.55 / Day</a>
@@ -249,15 +251,15 @@
 
 
 </div>
-<div class="img-wish">
+<div class="img-wish" style="margin: 6px;">
 
-<a href="product-detail.php"><div class="card" style="width: 100%;">
+<a href="product-detail.php"><div class="card" style="width: 100%; border:none;">
                             <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
-                            <div class="card-body">
+                            <div class="card-body" style="padding: 8px;">
                               <span class="fa fa-heart" style="float: right;"></span>
                              <p class="card-text">Brand New Watch</p>
                              <small class="text-muted">Louis Vuitton</small>
-
+                             <p class="card-text" ><small class="text-muted">Size: <span> Large</span> </small></p>
                              
                             <center>
                              <a href="#" class="btn btn-primary">€ 39.55 / Day</a>

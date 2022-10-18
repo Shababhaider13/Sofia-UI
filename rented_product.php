@@ -83,12 +83,13 @@
 
 /*style the items (options), including the selected item:*/
 .select-items div,.select-selected {
-  color: black;
+  color: #343a40;
   padding: 8px 16px;
   border: 1px solid transparent;
-  border-color: #0d6efd;
+  border-color: rgb(0 0 0 / 15%);
   cursor: pointer;
   user-select: none;
+  font-size: 14px;
 }
 
 /*style items (options):*/
@@ -188,96 +189,109 @@
     </div> -->
 
     <div id="fav1">
-        <div  class="img-wish">
+
+    <div  class="img-wish" style="margin: 6px;">
         
 
-        <a href="product-detail.php"><div class="card" style="width: 100%;">
+        <a href="product-detail.php"><div class="card" style="width: 100%; border:none;">
                                 <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
-                                <div class="card-body">
+                                <div class="card-body" style="padding: 8px;">
                                     
                                   <span class="fa fa-heart" style="float: right;"></span>
                                  <p class="card-text">Brand New Watch</p>
                                  <small class="text-muted" >Louis Vuitton</small>
-                                 <small class="text2" style="color: green;">Accept</small>
+                                 <small class="text2" style="color: green;">Approve</small>
+
                                  
                                 <center>
                                  <a href="#" class="btn btn-primary">€ 39.55 / Day</a>
                                   </center>
                                 </div>
                               </div></a>
-                          <div class="custom-select"  style="width:100%;"  >
-                            <select >
-                              <!-- <option value="0">Select car:</option> -->
-                              <option value="1"  selected>Availible For Rent</option>
-                              <option value="1">Availible For Rent</option> 
-                              <option value="2">Waiting For Return</option>
-                              <option value="3">Waiting For Shipment</option>
+                              <div class="custom-select"  style="width:100%;"  >
+  <select >
+    <!-- <option value="0">Select car:</option> -->
+    <option value="1"  selected>Availible For Rent</option>
+    <option value="1">Availible For Rent</option> 
+    <option value="2">Waiting For Return</option>
+    <option value="3">Waiting For Shipment</option>
     
-                            </select>
-                          </div>
+  </select>
+</div>
 
 
 
 </div>
 
-<div class="img-wish">
 
-<a href="product-detail.php"><div class="card" style="width: 100%;">
-                            <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
-                            <div class="card-body">
-                              <span class="fa fa-heart" style="float: right;"></span>
-                             <p class="card-text">Brand New Watch</p>
-                             <small class="text-muted">Louis Vuitton</small>
-                             <small class="text2" style="color: red;">Reject</small>
 
-                             
-                            <center>
-                             <a href="#" class="btn btn-primary">€ 39.55 / Day</a>
-                              </center>
-                            </div>
-                          </div></a>
-                          <div class="custom-select"  style="width:100%;"  >
-                            <select >
-                              <!-- <option value="0">Select car:</option> -->
-                              <option value="1"  selected>Availible For Rent</option>
-                              <option value="1">Availible For Rent</option> 
-                              <option value="2">Waiting For Return</option>
-                              <option value="3">Waiting For Shipment</option>
+<div  class="img-wish" style="margin: 6px;">
+        
+
+        <a href="product-detail.php"><div class="card" style="width: 100%; border:none;">
+                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
+                                <div class="card-body" style="padding: 8px;">
+                                    
+                                  <span class="fa fa-heart" style="float: right;"></span>
+                                 <p class="card-text">Brand New Watch</p>
+                                 <small class="text-muted" >Louis Vuitton</small>
+                                 <small class="text2" style="color: red;">Reject</small>
+
+                                 
+                                <center>
+                                 <a href="#" class="btn btn-primary">€ 39.55 / Day</a>
+                                  </center>
+                                </div>
+                              </div></a>
+                              <div class="custom-select"  style="width:100%;"  >
+  <select >
+    <!-- <option value="0">Select car:</option> -->
+    <option value="1"  selected>Availible For Rent</option>
+    <option value="1">Availible For Rent</option> 
+    <option value="2">Waiting For Return</option>
+    <option value="3">Waiting For Shipment</option>
     
-                            </select>
-                          </div>
-                          
+  </select>
+</div>
+
 
 
 </div>
-<div class="img-wish">
 
-<a href="product-detail.php"><div class="card" style="width: 100%;">
-                            <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
-                            <div class="card-body">
-                              <span class="fa fa-heart" style="float: right;"></span>
-                             <p class="card-text">Brand New Watch</p>
-                             <small class="text-muted">Louis Vuitton</small>
-                             <small class="text2" style="color: blue;">Pandding</small>
 
-                             
-                            <center>
-                             <a href="#" class="btn btn-primary">€ 39.55 / Day</a>
-                              </center>
-                            </div>
-                          </div></a>
-                          <div class="custom-select"  style="width:100%;"  >
-                            <select >
-                              <!-- <option value="0">Select car:</option> -->
-                              <option value="1"  selected>Availible For Rent</option>
-                              <option value="1">Availible For Rent</option> 
-                              <option value="2">Waiting For Return</option>
-                              <option value="3">Waiting For Shipment</option>
+<div  class="img-wish" style="margin: 6px;">
+        
+
+        <a href="product-detail.php"><div class="card" style="width: 100%; border:none;">
+                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
+                                <div class="card-body" style="padding: 8px;">
+                                    
+                                  <span class="fa fa-heart" style="float: right;"></span>
+                                 <p class="card-text">Brand New Watch</p>
+                                 <small class="text-muted" >Louis Vuitton</small>
+                                 <small class="text2" style="color: blue;">Pending</small>
+
+                                 
+                                <center>
+                                 <a href="#" class="btn btn-primary">€ 39.55 / Day</a>
+                                  </center>
+                                </div>
+                              </div></a>
+                              <div class="custom-select"  style="width:100%;"  >
+  <select >
+    <!-- <option value="0">Select car:</option> -->
+    <option value="1"  selected>Availible For Rent</option>
+    <option value="1">Availible For Rent</option> 
+    <option value="2">Waiting For Return</option>
+    <option value="3">Waiting For Shipment</option>
     
-                            </select>
-                          </div>
+  </select>
+</div>
+
+
 
 </div>
+
                               
 
     </div>

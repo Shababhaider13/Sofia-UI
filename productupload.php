@@ -397,7 +397,39 @@ p {
                                     <div class="form-card" style="box-shadow: none;">
                                         <h4 class="fs-title">Product Information</h4>
                                         <input type="text" name="fname" placeholder="Product Title" />
-                                        <input type="text" name="lname" placeholder="Brand" />
+                                        <input class="form-control mr-sm-2" type="search" placeholder="Search Brand" aria-label="Search">
+                                        <input type="text" name="phno" placeholder="Product Type" />
+                                        <div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text">$</span>
+  </div>
+  <input type="text" placeholder="Original Rental Price" class="form-control" aria-label="Amount (to the nearest dollar)" style="width: 70%;">
+  <div class="input-group-append">
+    <span class="input-group-text">.00</span>
+  </div>
+</div>
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text">$</span>
+  </div>
+  <input type="text" placeholder="Rental Price for 1 Day" class="form-control" aria-label="Amount (to the nearest dollar)" style="width: 70%;">
+  <div class="input-group-append">
+    <span class="input-group-text">.00</span>
+  </div>
+</div>
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text">$</span>
+  </div>
+  <input type="text" placeholder="Rental Price for 7 Day" class="form-control" aria-label="Amount (to the nearest dollar)" style="width: 70%;">
+  <div class="input-group-append">
+    <span class="input-group-text">.00</span>
+  </div>
+</div>
+
+
+                                        <!-- <input type="text" name="phno_2" placeholder="RRP" /> -->
+                                        <!-- <input type="text" name="lname" placeholder="Year Of Production" /> -->
                                         <!-- <input type="text" name="phno" placeholder="Category" /> -->
                                         <div class="size-204 mt-3 mb-3">
                                          <div class="rs1-select2 bor8 bg0">
@@ -468,11 +500,7 @@ p {
                                         <div class="dropDownSelect2"></div>
                                     </div>
                                 </div> 
-                                        <input type="text" name="phno" placeholder="Product Type" />
-                                        <!-- <input type="text" name="phno_2" placeholder="RRP" /> -->
-                                        <!-- <input type="text" name="lname" placeholder="Year Of Production" /> -->
-                                        <textarea class="size-110 bor8 stext-102 cl2 p-lr-20 p-tb-10 " placeholder="Discription"  id="review" name="review" style="border: 1px solid #ccc;"></textarea>
-                                        <input type="text" name="phno_2" placeholder="Rental Price for 1 Day" />
+
                                         <!-- <input type="text" name="phno_2" placeholder="Select Insurance Type" /> -->
                                         <div class="size-204 mt-3 mb-3">
                                          <div class="rs1-select2 bor8 bg0">
@@ -495,12 +523,15 @@ p {
 											<option>Like new</option>
 											<option>Very good condition</option>
 											<option>Good condition</option>
-                                            <option>Acceptable condition</option>
+                      <option>Acceptable condition</option>
 											
 										</select>
+                    
                                         <div class="dropDownSelect2"></div>
                                     </div>
+                                    
                                 </div> 
+                                <textarea class="size-110 bor8 stext-102 cl2 p-lr-20 p-tb-10 " placeholder="Discription"  id="review" name="review" style="border: 1px solid #ccc;"></textarea>
                                     </div>
                                     <input type="button" name="previous" class="previous action-button-previous" value="Back" />
                                     <input type="button" name="next" class="next action-button btnnext" value="Continue" />
