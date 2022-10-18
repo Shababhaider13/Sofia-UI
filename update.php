@@ -67,7 +67,7 @@
             width: 350px;
             padding: 20px;
             background: #fff;
-            box-shadow: 0px 4px 8px #c6c3e391;
+            box-shadow: 0px 4px 8px #e7e7e791;
             border-radius: 10px;
         }
         
@@ -262,7 +262,7 @@
         
 
         <!-- image end -->
-        <label>First Name</label>
+        <label style="margin-top: 20px;">First Name</label>
         <input type="text" class="typecol" placeholder="Hasham ">
         <label>Last Name</label>
         <input type="text" class="typecol" placeholder="Uddin">
@@ -275,7 +275,7 @@
             <div style="width:100%;display: flex;justify-content:center;align-items:center;height: 100%;"><i class="fa-solid fa-eye"></i></div>
 
         </div>
-        <div class="size-204 respon6-next mt-3 mb-3">
+        <div class="size-204 mt-3 mb-3">
                                          <div class="rs1-select2 bor8 bg0">
                                         <select class="js-select2" name="time">
 											<option>Country</option>
@@ -536,7 +536,7 @@
                                         <div class="dropDownSelect2"></div>
                                     </div>
                                 </div>
-                                <div class="size-204 respon6-next mt-3 mb-3">
+                                <div class="size-204 mt-3 mb-3">
                                          <div class="rs1-select2 bor8 bg0">
                                         <select class="js-select2" name="time">
 											<option>City</option>
@@ -879,7 +879,7 @@
                                         <div class="dropDownSelect2"></div>
                                     </div>
                                 </div>
-        <div class="size-204 respon6-next mt-3 mb-3">
+        <div class="size-204 mt-3 mb-3">
                                          <div class="rs1-select2 bor8 bg0">
                                         <select class="js-select2" name="time">
 											<option>Insurance Type</option>

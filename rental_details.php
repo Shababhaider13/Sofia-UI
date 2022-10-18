@@ -35,7 +35,7 @@
     <!-- header start -->
     <div id="profile_header">
         <div class="iconprofileheader">
-            <i class="fa-solid fa-arrow-left-long fa-2x"  onclick="history.go(-1)"></i>
+            <i class="fa fa-angle-left fa-2x"  onclick="history.go(-1)"></i>
         </div>
         <div id="profile_heading">
             <div id="profheadrev">Rental Details</div>

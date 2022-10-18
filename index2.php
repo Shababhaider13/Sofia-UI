@@ -217,7 +217,7 @@
         <div class="menu-mobile">
 
             <ul class="main-menu-m">
-                <!-- <li>
+                <li>
                     <a href="index.php">Home</a>
                     <ul class="sub-menu-m">
                         <li><a href="index.php">Homepage 1</a></li>
@@ -235,26 +235,18 @@
 
                 <li>
                     <a href="shoping-cart.php" class="label1 rs1" data-label1="hot">Features</a>
-                </li> -->
+                </li>
+
+                <li>
+                    <a href="about.php">Blog</a>
+                </li>
 
                 <li>
                     <a href="about.php">About</a>
                 </li>
 
                 <li>
-                    <a href="#">FAQs</a>
-                </li>
-
-                <li>
                     <a href="contact.php">Contact</a>
-                </li>
-
-                <li>
-                    <a href="#">Privacy Statement</a>
-                </li>
-
-                <li>
-                    <a href="#">Terms of Use</a>
                 </li>
             </ul>
         </div>
@@ -767,7 +759,7 @@
 <!-- more products start -->
 <div class="moreproducts">
 
-<a href="moreproduct.php"><button class="btn btn-primary ">Browse More</button></a>
+<a href="product.php"><button class="btn btn-primary ">Browse More</button></a>
     
 </div>
 
@@ -1199,7 +1191,7 @@
 <!-- more products start -->
 <div class="moreproducts">
 
-<a href="moreproduct.php"><button class="btn btn-primary ">Browse More</button></a>
+<a href="product.php"><button class="btn btn-primary ">Browse More</button></a>
     
 </div>
 
