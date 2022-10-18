@@ -287,7 +287,7 @@
 
     <div class="moreproducts1">
 
-<a href="productupload.php"><button class="button1 button3 ">Upload More Products</button></a>
+<a href="product.php"><button class="button1 button3 ">Upload More Products</button></a>
     
 </div>
 

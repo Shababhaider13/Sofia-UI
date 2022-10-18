@@ -14,13 +14,16 @@
     <link rel="stylesheet" href="style.css">
     <style>
         .button1 {
+            height: 40px;
   background-color: #9DCAEB;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 15px 21px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 4px 2px;
   cursor: pointer;
 }
@@ -60,7 +63,7 @@
     <!-- request sent end -->
 
     <!-- profile start -->
-    <div id="profile_rental">
+    <div id="profile_rental" style="margin-top: 10px;">
         <div id="imgprogrental"></div>
         <div id="contentprogrental">
             <div class="low1 low2">Loewe</div>
@@ -71,41 +74,41 @@
 
     <!-- calender start -->
     <div id="calrental">
-        <div class="disflex"><i class="fa-solid fa-calendar-days fa-2x"></i></div>
+        <div class="disflex" style="width:50%;"><i class="fa-solid far fa-calendar fa-2x"></i></div>
         <div class="disflex1">
-            <div class="date_rental">05 JUL - 07 JUL 2022</div>
+            <div class="date_rental" style="margin-left: -30px; color:black;">05 JUL - 07 JUL 2022</div>
         </div>
     </div>
     <!-- calender end -->
 
     <!-- price start -->
     <div class="del1">PRICE DETAILS</div>
-    <div class="subdel2">
-    <ul class="list-group">
-    <div><li class="list-group-item "><div class="picdet" style="background-color:white">
+    <div class="subdel5">
+    <ul class="list-group" style="border-bottom: 1px solid #76767691; margin-left:10px; margin-right:10px;">
+    <div><li class="list-group-item " style="border: none;"><div class="picdet" style="background-color:white">
         <div class="picdet1">
-            <div class="picdet2">$13 x 3 days</div>
+            <div class="picdet3">$13 x 3 days</div>
         </div>
         <div class="picdet1 juscent">
-            <div class="picdet3">$39.00</div>
+            <div class="picdet3" style="margin-left: 100px;">$39.00</div>
         </div>
         
     </div></li></div>
-    <div><li class="list-group-item "><div class="picdet" style="background-color:white">
+    <div><li class="list-group-item " style="border: none;"><div class="picdet" style="background-color:white">
         <div class="picdet1">
-            <div class="picdet2">Service Fee (21%)</div>
+            <div class="picdet3">Service Fee (21%)</div>
         </div>
         <div class="picdet1 juscent">
-            <div class="picdet3">$8.91</div>
+            <div class="picdet3" style="margin-left: 100px;">$8.91</div>
         </div>
         
     </div></li></div>
-    <div><li class="list-group-item "><div class="picdet" style="background-color:white">
+    <div><li class="list-group-item " style="border: none;"><div class="picdet" style="background-color:white">
         <div class="picdet1">
-            <div class="picdet2">Total</div>
+            <div class="picdet3" style="color: black; font-weight:600;">Total</div>
         </div>
         <div class="picdet1 juscent">
-            <div class="picdet3">$47.91</div>
+            <div class="picdet3" style="color: black; font-weight:600; margin-left: 100px;">$47.91</div>
         </div>
         
     </div></li></div>
@@ -127,15 +130,15 @@
     <!-- price detail end -->
 
     <!-- About rental start-->
-    <div class="del1" style="margin-top: 20px;">ABOUT RENTER</div>
+    <div class="del1" style="margin-top: 20px;  margin-bottom: 20px;">ABOUT RENTER</div>
     <!-- profile start -->
-    <div id="rendetprof">
+    <div id="rendetprof" style="box-shadow: none; padding:0;">
         <div id="renderprof1">
-            <div class="renderprof2">
+            <div class="renderprof2" style="align-items: center;">
                 <div id="teea1pic"></div>
             </div>
 
-            <div>
+            <div style="display: flex; justify-content: center; flex-direction: column;">
                 <div class="bigfont">_niki_</div>
                 <div><i class="fa-solid fa-star favcol"></i><i class="fa-solid fa-star favcol"></i><i class="fa-solid fa-star favcol"></i><i class="fa-solid fa-star favcol"></i><i class="fa-solid fa-star favcol"></i></div>
             </div>
@@ -162,13 +165,13 @@
     <!-- first message end -->
 
     <!-- delivery INFO START -->
-    <div class="del1" style="margin-top: 40px;">DELIVERY INFO</div>
-    <div id="btndelinfo">
+    <div class="del1" style="margin-top: 40px; padding-bottom:10px; border-bottom: 1px solid #c6c3e391;">DELIVERY INFO</div>
+    <div id="btndelinfo" style="margin-top: 20px;">
         <div id="reject" class="bigfont">
-            <div id="reject1">Reject</div>
+            <div id="reject1" style="    padding: 10px 20px;">Reject</div>
         </div>
         <div id="accept" class="bigfont">
-            <div id="accept1">Accept</div>
+            <div id="accept1" style="    padding: 10px 20px;">Accept</div>
         </div>
     </div>
     <!-- Delivery INFO END -->
